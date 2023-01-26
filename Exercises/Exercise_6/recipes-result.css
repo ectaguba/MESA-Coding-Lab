@@ -1,0 +1,110 @@
+    /* CSS RESET */
+    :root {
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+        box-sizing: border-box;
+    }
+
+    /* element selector */
+    img {
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    /* class selector */
+    .colored-heading {
+        color: black;
+    }
+
+    /* id selector */
+    #title {
+        text-align: center;
+        color: black;
+    }
+
+    #description {
+        text-align: center;
+    }
+
+    #ingredients {
+        background-color: lightgreen;
+        border-style: solid;
+        border-color: green;
+        border-width: 3px;
+        border-radius: 15px;
+
+        padding: 2rem;
+        margin: 1rem;
+    }
+
+    @media only screen and (min-width: 769px) {
+        #ingredients {
+            background-color: lightgray;
+            border: 3px solid gray;
+
+            margin: 1rem 4rem;
+        }
+    }
+
+    @media only screen and (min-width: 1025px) {
+        #ingredients {
+            background-color: lightblue;
+            border: 3px solid blue;
+
+            margin: 1rem 8rem;
+        }
+    }
+
+    @media only screen and (min-width: 1201px) {
+        #ingredients {
+            background-color: lightcoral;
+            border: 3px solid red;
+
+            margin: 1rem 12rem;
+        }
+    }
+
+    /* parent to child selector */
+    #ingredients > h2, #steps > h2 {
+        text-align: center;
+    }
+
+    #steps {
+        background-color: lightgreen;
+        border-style: solid;
+        border-color: green;
+        border-width: 3px;
+        border-radius: 15px;
+
+        padding: 2rem;
+        margin: 1rem;
+    }
+
+    @media only screen and (min-width: 769px) {
+        #steps {
+            background-color: lightgray;
+            border: 3px solid gray;
+            
+            margin: 1rem 4rem;
+        }
+    }
+
+    @media only screen and (min-width: 1025px) {
+        #steps {
+            background-color: lightblue;
+            border: 3px solid blue;
+
+            margin: 1rem 8rem;
+        }
+    }
+
+    @media only screen and (min-width: 1201px) {
+        #steps {
+            background-color: lightcoral;
+            border: 3px solid red;
+            
+            margin: 1rem 12rem;
+        }
+    }

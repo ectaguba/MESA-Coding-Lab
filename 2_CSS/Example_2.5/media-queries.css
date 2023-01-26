@@ -1,0 +1,22 @@
+/* Tablet Viewport */
+@media (min-width: 481px) {
+	#parent {
+		background-color: lightblue;
+		color: blue;
+	}
+}
+
+/* Small Laptops Viewport */
+@media (min-width: 769px) {
+	#parent {
+		background-color: lightgreen;
+		color: green;
+	}
+}
+
+@media (min-width: 1025px) {
+	#parent {
+		background-color: lightpink;
+		color: darkred;
+	}
+}

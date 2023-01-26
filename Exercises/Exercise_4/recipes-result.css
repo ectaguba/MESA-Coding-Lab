@@ -1,0 +1,56 @@
+/* CSS RESET */
+:root {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+/* element selector */
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* class selector */
+.colored-heading {
+    color: black;
+}
+
+/* id selector */
+#title {
+    text-align: center;
+    color: black;
+}
+
+#description {
+    text-align: center;
+}
+
+#ingredients {
+    background-color: lightgreen;
+    border-style: solid;
+    border-color: green;
+    border-width: 3px;
+    border-radius: 15px;
+
+    padding: 2rem;
+    margin: 1rem;
+}
+
+/* parent to child selector */
+#ingredients > h2, #steps > h2 {
+    text-align: center;
+}
+
+#steps {
+    background-color: lightblue;
+    border-style: solid;
+    border-color: blue;
+    border-width: 3px;
+    border-radius: 15px;
+
+    padding: 2rem;
+    margin: 1rem;
+}

@@ -1,0 +1,12 @@
+/* element selector */
+p {
+	background-color: lightgray;
+}
+/* id selector */
+#title-heading {
+	color: red;
+}
+/* class selector */
+.blue-text {
+	color: blue;
+}

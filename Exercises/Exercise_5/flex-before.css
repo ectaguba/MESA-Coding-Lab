@@ -1,0 +1,26 @@
+/* MODIFY THIS FILE */
+/* Recreate a responsive one-directional layout of items that rearranges when the viewport shrinks. */
+
+#flex-container {
+    background-color: blue;
+    padding: 50px;
+
+    /* Add flexbox properties below */
+    
+    /* Change code above */
+}
+
+/* selector div children in #flex-container */
+#flex-container > div {
+    /* style divs as blue squares */
+    background-color: lightblue; 
+    color: blue; 
+
+    /* give box model sizes */
+    width: 100px;
+    margin: 10px;
+    line-height: 100px;
+
+    text-align: center;
+    font-size: 24px;
+}

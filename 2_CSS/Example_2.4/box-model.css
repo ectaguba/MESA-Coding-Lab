@@ -1,0 +1,14 @@
+#outer-border {
+    border: 3px solid black;
+}
+
+
+#box {
+    text-align: center;
+    background-color: lightblue;
+
+    /* change these values */
+    padding: 100px; /* lightblue */
+    border: 3px solid blue;
+    margin: 50px; /* whitespace */
+}

@@ -1,0 +1,8 @@
+/* change the properties of your div */
+#parent {
+	background-color: yellow;
+	border-color: blue;
+	text-align: center;
+	border-style: solid;
+    border-width: 6px;
+}

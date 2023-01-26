@@ -1,0 +1,21 @@
+#flex-container {
+    background-color: blue;
+    padding: 50px;
+    /* add flex container properties below */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* select div children in #flex-container */
+#flex-container > div {
+    background-color: lightblue;
+    color: blue; 
+    width: 100px;
+    margin: 10px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 24px;
+}

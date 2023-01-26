@@ -1,0 +1,24 @@
+/* CSS RESET */
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+/* element selector */
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* class selector */
+.colored-heading {
+    color: blue;
+}
+
+/* id selector */
+#title {
+    color: red;
+}
