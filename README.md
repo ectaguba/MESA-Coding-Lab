@@ -1,5 +1,5 @@
 # MESA-Coding-Lab
-Last Updated Jan. 26, 2023
+Last Updated Jan. 27, 2023
 
 This repository contains all the example and exercise code for the MESA Front-End Development Skills Lab.
 There are three sections:
